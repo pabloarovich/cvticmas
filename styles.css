@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: silver;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 50vh;
+}
+
+section[id] {
+    scroll-margin-top: 100px;
+}
+
+section#inicio {
+    background-color:  orangered;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section#sobre-mi {
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section#experiencia {
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section#estudios {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section#proyectos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section#contacto {
+    background-color: slateblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section#contacto .redes {
+    height: 100px;
+}
+section#contacto .redes a {
+    margin: 5px 50px;
+    color: blanchedalmond;
+    font-size: 50px;
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.proy-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.proy-det{
+    border: 10px solid blue;
+    width: 300px;
+    margin: 20px;
+}
+
+.proy-det img {
+    width: 100%;
+}
+
+header {
+    position: sticky;
+    top:0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(81, 71, 71); 
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+}
+
+.link1 {
+    color: antiquewhite;
+    background-color: orangered;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+.link2 {
+    color: antiquewhite;
+    background-color: coral;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+.link3 {
+    color: antiquewhite;
+    background-color: cadetblue;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+.link4 {
+    color: antiquewhite;
+    background-color: burlywood;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+.link5 {
+    color: antiquewhite;
+    background-color: silver;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+.link6 {
+    color: antiquewhite;
+    background-color: slateblue;
+    text-decoration: none;
+    padding: 10px 30px;
+}
